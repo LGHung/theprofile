@@ -1,0 +1,93 @@
+body{
+    background-color: grey;
+}
+.profile-container{
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.profile-img{
+    max-width: 300px;
+    height: auto;
+    padding-left: 50p;
+}
+.banle{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.profile-container-top{
+   display: flex;
+}
+
+.top-text-container{
+    margin-left: 5%;
+    font-size: 30px;
+}
+.bottom-container p {
+    padding-top: 20px;
+    font-size: 30px;
+}
+.money-act-container{
+    border: inset black;
+    margin: auto;
+}
+.top-text{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.money-act-act{
+    text-align: center;
+    font-size: large;
+}
+.button-container button{
+    font-size: 40px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: grey;
+    width: 400px;
+    margin-top: 30px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change-profile-container{
+    display: flex;
+    flex-direction: column;
+    border: inset black;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    
+}
+.change-profile-container input{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.change-profile-container button{
+    width: 350px;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color:grey;
+}
+#completechange{
+    margin-bottom: 20px;
+}
+#del-profile{
+    margin-bottom: 30px;
+}
+.bruh{
+    opacity: 0;
+}
+.imgs{
+    height: 100px;
+    width: 100px;
+}
